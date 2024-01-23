@@ -1,0 +1,25 @@
+Id,Designator,Footprint,Quantity,Designation,PLACED
+1,"C12,C5",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,1u,☐
+2,SW2,SW_PUSH_6mm_H8.5mm,1,TACT SW,☐
+3,"C6,C7,C3,C9,C11,C10,C4,C8",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,8,100n,☐
+4,U2,SOT-223-3_TabPin2,1,AZ1117CH-3.3TRG1 SOT223-3,☐
+5,J7,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06_Socket,☐
+6,"R16,R6",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,1k,☐
+7,"C14,C13",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,10u,☐
+8,"R33,R3,R2",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,3,5.1K,☐
+9,5V,PinSocket_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,☐
+10,"J6,J4",PinSocket_1x08_P2.54mm_Vertical,2,Conn_01x08_Socket,☐
+11,R7,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,10k,☐
+12,C15,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1,100n,☐
+13,J3,PinSocket_1x10_P2.54mm_Vertical,1,Conn_01x10_Socket,☐
+14,D3,SOT-23,1,D_TVS_Dual_AAC,☐
+15,"R4,R5",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,27R,☐
+16,J5,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,☐
+17,U1,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,1,RP2040,☐
+18,J1,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,1,USB_C_Receptacle_USB2.0,☐
+19,U3,SOIC-8_5.23x5.23mm_P1.27mm,1,W25Q128JVS,☐
+20,J9,BarrelJack_Horizontal,1,Barrel_Jack_Switch,☐
+21,"D2,D1",D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,D_Schottky,☐
+22,J8,PinSocket_1x03_P2.54mm_Vertical,1,Conn_01x03_Pin,☐
+23,"C1,C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,27p,☐
+24,Y1,Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm_HandSoldering,1,Crystal 12 Mhz,☐
