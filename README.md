@@ -10,3 +10,7 @@ SparkFun QWIIC is also <s>going to be</s> implemented.
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" >
 
+<hr width = 100% height = 2></hr>
+<h1><b>Team:</b></h1>
+<i>ATUL RAVI</i><br>
+17 y/o hobbyist and student building hardware and blogging about them at https://www.esccrasci.in and HAM operator VU3FUJ
