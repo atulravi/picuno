@@ -11,6 +11,7 @@ Note that all of the gerber files and kicad files present at root are of V1 and 
 <hr width = 100% height = 2></hr>
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" >
+<img src = "https://github.com/atulravi/picuno/blob/main/v1-oshwa.png" size = 50% width = 50% height = 50%  >
 
 <hr width = 100% height = 2></hr>
 <h1><b>Team:</b></h1>
