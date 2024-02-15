@@ -10,10 +10,14 @@ Note that all of the gerber files and kicad files present at root are of V1 and 
 
 <hr width = 100% height = 2></hr>
 <h1><b>Licenses:</b></h1>
-<img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" >
-<img src = "https://github.com/atulravi/picuno/blob/main/v1-oshwa.png" size = 50% width = 50% height = 50%  >
+<img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
+<img src = "https://github.com/atulravi/picuno/blob/main/v1-oshwa.png" size = 50% width = 50% height = 50%  > </img>
 
 <hr width = 100% height = 2></hr>
 <h1><b>Team:</b></h1>
 <i>ATUL RAVI</i><br>
 17 y/o hobbyist and student building hardware and blogging about them at https://www.esccrasci.in and HAM operator VU3FUJ
+
+<hr width = 100% height = 2></hr>
+<img src = "http://esccrasci.in/wp-content/uploads/2024/02/kicad-1.png" height = 20% width = 20% size = 20%><img src = "http://esccrasci.in/wp-content/uploads/2024/02/india-1.png" size = 20% width = 20% height = 20%  > </img>
+
