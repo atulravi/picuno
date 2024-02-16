@@ -7,7 +7,8 @@ GPIOs <s>will be</s> 5V tolerant (Select GPIOs) with level shifting. At the mome
 SparkFun QWIIC is also <s>going to be</s> implemented.  <br>
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
-
+<br>
+Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/manufacture">/manufacture</a>
 <hr width = 100% height = 2></hr>
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
