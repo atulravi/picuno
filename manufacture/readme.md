@@ -1,4 +1,4 @@
-BOM Costing, Final Manufacture estimate.   Subject to change. 
+BOM (Part pricing), Final Manufacture estimate.   Subject to change. 
 <br>
 <b>Expected campaign Goal: $3000-$3900 </b>
 <br>
