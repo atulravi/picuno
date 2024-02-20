@@ -19,7 +19,10 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 <hr width = 100% height = 2></hr>
 <h1><b>Team:</b></h1>
 <i>ATUL RAVI</i><br>
-17 y/o hobbyist and student building hardware and blogging about them at https://www.esccrasci.in and HAM operator VU3FUJ
+17 y/o hobbyist and student building hardware and blogging about them at https://www.esccrasci.in and HAM operator VU3FUJ <br>
+
+## Credits
+<small>Thanks to CodeItDoIt on Github for fixing the picuno.bmp filename and improving file hierarchy.</small>
 
 <hr width = 100% height = 2></hr>
 <img src = "http://esccrasci.in/wp-content/uploads/2024/02/kicad-1.png" height = 20% width = 20% size = 20%><img src = "http://esccrasci.in/wp-content/uploads/2024/02/india-1.png" size = 20% width = 20% height = 20%  > </img>
