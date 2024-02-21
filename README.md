@@ -11,6 +11,8 @@ Note that all of the gerber files and kicad files present at root are of V1 and 
 <br>
 Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/manufacture">/manufacture</a><br>
 
+
+
 <b><i>Current version being prototyped:</i></b>V2.2.3 (Picuno)<br>
 <hr width = 100% height = 2></hr>
 <h1><b>Licenses:</b></h1>
