@@ -5,7 +5,7 @@ File Hierarchy will be updated periodically.<br>
 
 GPIOs <s>will be</s> 5V tolerant (Select GPIOs) with level shifting. At the moment, 6 GPIOs will be level shifted to 5 volts unlike competitors. Also working on shifting all GPIOs to 5V for better compatibility. <br>
 SparkFun QWIIC is also <s>going to be</s> implemented.  
-<br>
+<br> 
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
 <br>
