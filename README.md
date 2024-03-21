@@ -1,17 +1,21 @@
 # Picuno (PICO + UNO)
 A repo of all files for the pic uno RP2040+Arduino UNO derivative by ESCcrasci and AtrivaTECH <br>
-Associated article: https://esccrasci.in/picuno/ <br>
+
+<i>Product Page:</i> <a href= "https://atrivatech.com/picuno">www.atrivatech.com/picuno</a><br>
+<i>Brand Page/Manufacturer Page (All product updates in future will be available here):</i> <a href="https://www.atrivatech.com">www.atrivatech.com</a><br>
+<i>Associated article:</i> https://esccrasci.in/picuno/ <br>
+
 File Hierarchy will be updated periodically.<br>
 
-GPIOs <s>will be</s> 5V tolerant (Select GPIOs) with level shifting. At the moment, <s>-6-</s> <b>4 </b> GPIOs will be level shifted to 5 volts unlike competitors. Also working on shifting all GPIOs to 5V for better compatibility. <br>
+GPIOs <s>will be</s> are 5V tolerant (Select GPIOs) with level shifting. At the moment, <s>-6-</s> <b>4 </b> GPIOs will be level shifted to 5 volts unlike competitors. <s> Also working on shifting all GPIOs to 5V for better compatibility.</s> This shall work only with external power for safety reasons. (Note: Although GPIOS 2-5 are "OUTPUT ONLY" even inputs can be given. However, 5V inputs can only be given with external power. 3.3V inputs can be given with/without. Said GPIOs are maked as such to prevent accidents in hands of beginners.) Dual regulators are added for complete freedom of choosing devices to connect. (NOTE 2: Although both external power and USB power can be given at once, it is not recommended. However, the circuit has been designed to prevent reversing of high voltage through the USB. If considering external power and USB C, using a C cable without 5V line would be recommended.)<br> 
+
 SparkFun QWIIC is also <s>going to be</s> implemented.  
-<br> 
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
 <br>
 Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/manufacture">/manufacture</a><br>
  
-<b><i>Current version being prototyped:</i></b>V2.2.3 (Picuno)<br>
+<b><i>Current version being <s>prototyped</s> tested:</i></b> V2.2.3 (Picuno)<br>
 <hr width = 100% height = 2></hr>
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
