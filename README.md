@@ -16,7 +16,13 @@ Note that all of the gerber files and kicad files present at root are of V1 and 
 Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/manufacture">/manufacture</a><br>
  
 <b><i>Current version being <s>prototyped</s> tested:</i></b> V2.2.3 (Picuno)<br>
+
 <hr width = 100% height = 2></hr>
+
+# Photo of PicUNO RP2040 V2.X.X
+<img src="http://atrivatech.com/wp-content/uploads/2024/03/IMG_0571-scaled.jpg" height= "50%"  width = "50%" size="50%"></img>
+<hr width = 100% height = 2></hr>
+
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
 <img src = "https://github.com/atulravi/picuno/blob/main/v1-oshwa.png" size = 50% width = 50% height = 50%  > </img>
@@ -31,4 +37,5 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 
 <hr width = 100% height = 2></hr>
 <img src = "http://esccrasci.in/wp-content/uploads/2024/02/kicad-1.png" height = 20% width = 20% size = 20%><img src = "http://esccrasci.in/wp-content/uploads/2024/02/india-1.png" size = 20% width = 20% height = 20%  > </img>
+
 
