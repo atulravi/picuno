@@ -21,7 +21,13 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 
 # Photo of PicUNO RP2040 V2.X.X
 <img src="http://atrivatech.com/wp-content/uploads/2024/03/IMG_0571-scaled.jpg" height= "50%"  width = "50%" size="50%"></img>
+
+This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHifting to 5V on GPIOs 2-5 (On external power), Multi-GPIO support with selectors, SparkFun QWIIC connector, External DC Power jack, Dedicated reset switch, access to all 26 GPIOs and mounting holes. 
 <hr width = 100% height = 2></hr>
+
+## Known Faults:
+
+The only known fault is the lack of a VIN port in the header. Design shall be modified to include the same.
 
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
@@ -31,6 +37,7 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 <h1><b>Team:</b></h1>
 <i>ATUL RAVI</i><br>
 17 y/o hobbyist and student building hardware and blogging about them at https://www.esccrasci.in and HAM operator VU3FUJ <br>
+
 
 ## Credits
 <small>Thanks to CodeItDoIt on Github for fixing the picuno.bmp filename and improving file hierarchy.</small>
