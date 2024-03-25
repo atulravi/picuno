@@ -24,7 +24,7 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 # Photo of PicUNO RP2040 V2.X.X
 <img src="http://atrivatech.com/wp-content/uploads/2024/03/IMG_0571-scaled.jpg" height= "50%"  width = "50%" size="50%"></img>
 
-This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHifting to 5V on GPIOs 2-5 (On external power), Multi-GPIO support with selectors, SparkFun QWIIC connector, External DC Power jack, Dedicated reset switch, access to all 26 GPIOs and mounting holes. 
+This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHifting to 5V on GPIOs 2-5 (On external power), Multi-GPIO support with selectors, SparkFun QWIIC/Adafruit Stemma QT connector, External DC Power jack, Dedicated reset switch, access to all 26 GPIOs and mounting holes. 
 <hr width = 100% height = 2></hr>
 
 ## Known Faults:
