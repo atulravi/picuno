@@ -27,9 +27,14 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHifting to 5V on GPIOs 2-5 (On external power), Multi-GPIO support with selectors, SparkFun QWIIC/Adafruit Stemma QT connector, External DC Power jack, Dedicated reset switch, access to all 26 GPIOs and mounting holes. 
 <hr width = 100% height = 2></hr>
 
+## In the Press:
+<img src="https://atrivatech.com/wp-content/uploads/2024/03/article-np-clipping.jpg" width="50%" height="50%"></img>
+
+<small>The Hindu-Downtown-10 March</small>
+
 ## Known Faults:
 
-The only known fault is the lack of a VIN port in the header. Design shall be modified to include the same.
+The only known fault is the lack of a VIN port in the header. Design <s>shall</s> has been modified to include the same.
 
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
