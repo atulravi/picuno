@@ -11,7 +11,7 @@ GPIOs <s>will be</s> are 5V tolerant (Select GPIOs) with level shifting. At the 
 
 Built-In LED can be accessed at GPIO14.
 
-SparkFun QWIIC is also <s>going to be</s> implemented.  
+SparkFun QWIIC/ Adafruit Stemma is also <s>going to be</s> implemented.  
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
 <br>
