@@ -7,11 +7,15 @@ A repo of all files for the pic uno RP2040+Arduino UNO derivative by ESCcrasci a
 
 File Hierarchy will be updated periodically.<br>
 
+<b><h3> CONTRIBUTORS, TESTERS are WELCOME. Know More: <a href="https://atrivatech.com/news">atrivatech.com/news</a></h3></b>
+
 GPIOs <s>will be</s> are 5V tolerant (Select GPIOs) with level shifting. At the moment, <s>-6-</s> <b>4 </b> GPIOs will be level shifted to 5 volts unlike competitors. <s> Also working on shifting all GPIOs to 5V for better compatibility.</s> This shall work only with external power for safety reasons. (Note: Although GPIOS 2-5 are "OUTPUT ONLY" even inputs can be given. However, 5V inputs can only be given with external power. 3.3V inputs can be given with/without. Said GPIOs are maked as such to prevent accidents in hands of beginners. Said outputs will also be held HIGH always. For functionality, set low. These points are also applicable to 5V edition only.) Dual regulators are added for complete freedom of choosing devices to connect. (NOTE 2: Although both external power and USB power can be given at once, it is not recommended. However, the circuit has been designed to prevent reversing of high voltage through the USB. If considering external power and USB C, using a C cable without 5V line would be recommended.)<br> 
 
 Built-In LED can be accessed at GPIO14.
 
 SparkFun QWIIC/ Adafruit Stemma is also <s>going to be</s> implemented.  
+
+Learning Resources shall be developed in partnership with the Educational Kits division of It's ON Group (AtrivaQ atrivaq.in) also providing a public platform for all users of PicUNO to share their learnings. Documentation and Learning Resources with Teaching Resources shall be produced in conjunction with our education team too. AtrivQ brings their over 4 year experience in the affordable education space which in conjunction with our affordable MCU board will gear up up-coming students,hobbyists and engineers to learn with the latest hardware without having to invest in sub-par foreign made knockoff boards.
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
 <br>
@@ -31,6 +35,11 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 <img src="https://atrivatech.com/wp-content/uploads/2024/03/article-np-clipping.jpg" width="50%" height="50%"></img>
 
 <small>The Hindu-Downtown-10 March</small>
+
+## Production Process
+
+![First Protoytpe (1)_page-0001](https://github.com/atulravi/picuno/assets/70395057/46d8deba-8657-42b1-a80e-a7a603487e63)
+<small><center>Sections highlighted in green are complete</center></small>
 
 ## Known Faults:
 
