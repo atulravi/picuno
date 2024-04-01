@@ -42,8 +42,7 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 <small><center>Sections highlighted in green are complete</center></small>
 
 ## Known Faults:
-
-The only known fault is the lack of a VIN port in the header. Design <s>shall</s> has been modified to include the same.
+<1/APR> I2C and QWIIC wiring issue. GP20 is SDA and GP21 is SCL. Will Be fixed.
 
 <h1><b>Licenses:</b></h1>
 <img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
