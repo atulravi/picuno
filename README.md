@@ -38,6 +38,8 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 
 <a href="https://www.hackster.io/news/picuno-rp2040-in-the-arduino-uno-form-factor-56e568c494da"> <img src="http://esccrasci.in/wp-content/uploads/2024/04/Hackster_RGB.jpg" height="50%" width="50%"></a>
 
+<small>Hackster.io- "Atul Ravi's PicUNO is a Pico-style RP2040 board in the popular Arduino form factor with extra features."</small>
+
 ## Production Process
 
 ![First Protoytpe (1)_page-0001](https://github.com/atulravi/picuno/assets/70395057/46d8deba-8657-42b1-a80e-a7a603487e63)
