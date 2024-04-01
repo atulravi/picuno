@@ -1,0 +1,388 @@
+build-PicUNO/main.o: ../../main.c \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h ../../extmod/vfs.h ../../py/builtin.h \
+ ../../py/obj.h /usr/include/newlib/assert.h ../../py/mpconfig.h \
+ build-PicUNO/genhdr/mpversion.h mpconfigport.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ ../../py/circuitpy_mpconfig.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h \
+ ../../supervisor/port_heap.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ boards/PicUNO/mpconfigboard.h /usr/include/newlib/alloca.h \
+ sdk/src/common/pico_sync/include/pico/critical_section.h \
+ sdk/src/common/pico_sync/include/pico/lock_core.h \
+ sdk/src/common/pico_base/include/pico.h \
+ sdk/src/common/pico_base/include/pico/types.h \
+ sdk/src/common/pico_base/include/pico/assert.h sdk_config/pico/version.h \
+ sdk/src/common/pico_base/include/pico/config.h \
+ sdk_config/pico/config_autogen.h boards/PicUNO/pico-sdk-configboard.h \
+ sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ sdk/src/common/pico_base/include/pico/types.h \
+ sdk/src/common/pico_base/include/pico/error.h \
+ sdk/src/common/pico_time/include/pico/time.h \
+ sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ sdk/src/rp2_common/hardware_sync/include/hardware/sync.h ../../py/misc.h \
+ ../../py/mpconfig.h ../../supervisor/shared/translate/translate.h \
+ ../../supervisor/shared/translate/compressed_string.h \
+ ../../supervisor/shared/translate/translate_impl.h \
+ build-PicUNO/genhdr/qstrdefs.generated.h ../../py/qstr.h \
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/proto.h \
+ ../../extmod/vfs_fat.h ../../lib/oofatfs/ff.h ../../lib/oofatfs/ffconf.h \
+ ../../extmod/vfs.h ../../py/nlr.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ ../../py/compile.h ../../py/lexer.h ../../py/reader.h ../../py/parse.h \
+ ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h \
+ ../../py/objexcept.h ../../py/objtuple.h ../../py/objtraceback.h \
+ ../../shared-bindings/warnings/__init__.h \
+ build-PicUNO/genhdr/root_pointers.h ../../py/pystack.h \
+ ../../supervisor/linker.h ../../py/frozenmod.h ../../py/mphal.h \
+ mphalport.h ../../supervisor/shared/tick.h ../../extmod/virtpin.h \
+ ../../py/runtime.h ../../py/repl.h ../../py/gc.h ../../py/stackctrl.h \
+ ../../shared/readline/readline.h ../../shared/runtime/pyexec.h \
+ background.h ../../supervisor/background_callback.h \
+ ../../supervisor/board.h ../../supervisor/shared/safe_mode.h \
+ ../../supervisor/cpu.h ../../supervisor/filesystem.h \
+ ../../extmod/vfs_fat.h ../../supervisor/port.h ../../supervisor/serial.h \
+ /usr/include/newlib/stdio.h /usr/include/newlib/sys/types.h \
+ /usr/include/newlib/sys/_stdint.h /usr/include/newlib/machine/endian.h \
+ /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
+ /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h \
+ /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
+ /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
+ /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ ../../supervisor/shared/reload.h \
+ ../../shared-bindings/supervisor/RunReason.h \
+ ../../supervisor/shared/safe_mode.h ../../supervisor/shared/stack.h \
+ ../../supervisor/shared/status_leds.h ../../shared/runtime/pyexec.h \
+ ../../supervisor/shared/rgb_led_colors.h ../../supervisor/shared/tick.h \
+ ../../supervisor/shared/traceback.h ../../supervisor/shared/workflow.h \
+ ../../supervisor/usb.h ../../supervisor/workflow.h \
+ ../../supervisor/shared/external_flash/external_flash.h \
+ ../../shared-bindings/microcontroller/__init__.h \
+ common-hal/microcontroller/Processor.h \
+ sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h \
+ ../../shared-bindings/microcontroller/ResetReason.h ../../py/enum.h \
+ ../../shared-bindings/microcontroller/RunMode.h \
+ common-hal/nvm/ByteArray.h common-hal/watchdog/WatchDogTimer.h \
+ ../../shared-module/watchdog/__init__.h \
+ ../../shared-bindings/watchdog/WatchDogMode.h \
+ ../../shared-bindings/watchdog/WatchDogTimer.h \
+ ../../shared-bindings/microcontroller/Processor.h \
+ ../../shared-bindings/supervisor/__init__.h \
+ common-hal/supervisor/Runtime.h \
+ ../../shared-module/supervisor/StatusBar.h \
+ ../../shared-bindings/supervisor/Runtime.h \
+ ../../shared-bindings/supervisor/SafeModeReason.h \
+ ../../shared-bindings/os/__init__.h \
+ ../../shared-bindings/alarm/__init__.h common-hal/alarm/__init__.h \
+ common-hal/alarm/SleepMemory.h common-hal/alarm/pin/PinAlarm.h \
+ ../../shared-bindings/microcontroller/Pin.h \
+ common-hal/microcontroller/Pin.h peripherals/pins.h \
+ common-hal/alarm/time/TimeAlarm.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+ common-hal/digitalio/DigitalInOut.h \
+ ../../shared-module/atexit/__init__.h \
+ ../../shared-bindings/_bleio/__init__.h \
+ ../../shared-bindings/_bleio/Adapter.h \
+ ../../devices/ble_hci/common-hal/_bleio/Adapter.h \
+ ../../shared-bindings/_bleio/Characteristic.h \
+ ../../shared-bindings/_bleio/Attribute.h \
+ ../../devices/ble_hci/common-hal/_bleio/Attribute.h \
+ ../../shared-module/_bleio/Attribute.h \
+ ../../shared-bindings/_bleio/UUID.h \
+ ../../devices/ble_hci/common-hal/_bleio/UUID.h \
+ ../../shared-bindings/_bleio/Descriptor.h \
+ ../../devices/ble_hci/common-hal/_bleio/Characteristic.h \
+ ../../devices/ble_hci/common-hal/_bleio/Descriptor.h \
+ ../../shared-module/_bleio/Characteristic.h \
+ ../../devices/ble_hci/common-hal/_bleio/Service.h \
+ ../../shared-bindings/_bleio/Connection.h \
+ ../../devices/ble_hci/common-hal/_bleio/Connection.h \
+ ../../devices/ble_hci/common-hal/_bleio/__init__.h \
+ ../../devices/ble_hci/common-hal/_bleio/att.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/addr.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/att.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/att_internal.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/hci.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/addr.h \
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/hci_err.h \
+ ../../shared-module/_bleio/Address.h \
+ ../../shared-bindings/_bleio/ScanResults.h \
+ ../../shared-module/_bleio/ScanResults.h ../../py/ringbuf.h \
+ ../../py/gc.h ../../shared-bindings/busio/UART.h common-hal/busio/UART.h \
+ sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ ../../shared-bindings/digitalio/DigitalInOut.h \
+ ../../shared-bindings/digitalio/Direction.h \
+ ../../shared-bindings/digitalio/DriveMode.h \
+ ../../shared-bindings/digitalio/Pull.h ../../py/objstr.h \
+ ../../py/objarray.h ../../supervisor/shared/bluetooth/bluetooth.h \
+ ../../shared-module/board/__init__.h \
+ ../../shared-module/displayio/__init__.h \
+ ../../shared-bindings/busdisplay/BusDisplay.h \
+ ../../shared-module/busdisplay/BusDisplay.h \
+ ../../shared-bindings/displayio/Group.h \
+ ../../shared-module/displayio/Group.h \
+ ../../shared-module/displayio/area.h \
+ ../../shared-module/displayio/Palette.h \
+ ../../shared-bindings/pwmio/PWMOut.h common-hal/pwmio/PWMOut.h \
+ ../../shared-module/displayio/bus_core.h \
+ ../../shared-bindings/displayio/__init__.h \
+ ../../shared-module/displayio/display_core.h \
+ ../../shared-bindings/epaperdisplay/EPaperDisplay.h \
+ ../../shared-module/epaperdisplay/EPaperDisplay.h \
+ ../../shared-bindings/framebufferio/FramebufferDisplay.h \
+ ../../shared-module/framebufferio/FramebufferDisplay.h \
+ ../../shared-bindings/fourwire/FourWire.h \
+ ../../shared-module/fourwire/FourWire.h common-hal/busio/SPI.h \
+ sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ ../../shared-bindings/fourwire/__init__.h \
+ ../../shared-bindings/i2cdisplaybus/I2CDisplayBus.h \
+ ../../shared-module/i2cdisplaybus/I2CDisplayBus.h common-hal/busio/I2C.h \
+ ../../shared-module/bitbangio/I2C.h \
+ sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ ../../shared-bindings/paralleldisplaybus/ParallelBus.h \
+ common-hal/paralleldisplaybus/ParallelBus.h \
+ bindings/rp2pio/StateMachine.h common-hal/rp2pio/StateMachine.h \
+ sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
+ sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+ ../../shared-bindings/rgbmatrix/RGBMatrix.h \
+ ../../shared-module/rgbmatrix/RGBMatrix.h \
+ ../../lib/protomatter/src/core.h \
+ ../../shared-module/sharpdisplay/SharpMemoryFramebuffer.h \
+ ../../shared-bindings/busio/SPI.h ../../shared-module/keypad/__init__.h \
+ ../../supervisor/shared/lock.h ../../supervisor/shared/status_bar.h \
+ ../../shared-module/usb_hid/__init__.h \
+ ../../shared-module/usb_hid/Device.h ../../shared-module/os/__init__.h
+../../main.c :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h :
+ /usr/include/newlib/string.h /usr/include/newlib/_ansi.h :
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h :
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h :
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/reent.h :
+ /usr/include/newlib/_ansi.h :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h :
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h :
+ /usr/include/newlib/machine/_default_types.h :
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h :
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/strings.h :
+ /usr/include/newlib/sys/string.h ../../extmod/vfs.h ../../py/builtin.h :
+ ../../py/obj.h /usr/include/newlib/assert.h ../../py/mpconfig.h :
+ build-PicUNO/genhdr/mpversion.h mpconfigport.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h :
+ ../../py/circuitpy_mpconfig.h :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdatomic.h :
+ ../../supervisor/port_heap.h :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h :
+ boards/PicUNO/mpconfigboard.h /usr/include/newlib/alloca.h :
+ sdk/src/common/pico_sync/include/pico/critical_section.h :
+ sdk/src/common/pico_sync/include/pico/lock_core.h :
+ sdk/src/common/pico_base/include/pico.h :
+ sdk/src/common/pico_base/include/pico/types.h :
+ sdk/src/common/pico_base/include/pico/assert.h sdk_config/pico/version.h :
+ sdk/src/common/pico_base/include/pico/config.h :
+ sdk_config/pico/config_autogen.h boards/PicUNO/pico-sdk-configboard.h :
+ sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h :
+ sdk/src/rp2_common/pico_platform/include/pico/platform.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h :
+ sdk/src/common/pico_base/include/pico/types.h :
+ sdk/src/common/pico_base/include/pico/error.h :
+ sdk/src/common/pico_time/include/pico/time.h :
+ sdk/src/rp2_common/hardware_timer/include/hardware/timer.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h :
+ sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h :
+ sdk/src/rp2_common/hardware_sync/include/hardware/sync.h ../../py/misc.h :
+ ../../py/mpconfig.h ../../supervisor/shared/translate/translate.h :
+ ../../supervisor/shared/translate/compressed_string.h :
+ ../../supervisor/shared/translate/translate_impl.h :
+ build-PicUNO/genhdr/qstrdefs.generated.h ../../py/qstr.h :
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/proto.h :
+ ../../extmod/vfs_fat.h ../../lib/oofatfs/ff.h ../../lib/oofatfs/ffconf.h :
+ ../../extmod/vfs.h ../../py/nlr.h :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h :
+ ../../py/compile.h ../../py/lexer.h ../../py/reader.h ../../py/parse.h :
+ ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h :
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h :
+ ../../py/objexcept.h ../../py/objtuple.h ../../py/objtraceback.h :
+ ../../shared-bindings/warnings/__init__.h :
+ build-PicUNO/genhdr/root_pointers.h ../../py/pystack.h :
+ ../../supervisor/linker.h ../../py/frozenmod.h ../../py/mphal.h :
+ mphalport.h ../../supervisor/shared/tick.h ../../extmod/virtpin.h :
+ ../../py/runtime.h ../../py/repl.h ../../py/gc.h ../../py/stackctrl.h :
+ ../../shared/readline/readline.h ../../shared/runtime/pyexec.h :
+ background.h ../../supervisor/background_callback.h :
+ ../../supervisor/board.h ../../supervisor/shared/safe_mode.h :
+ ../../supervisor/cpu.h ../../supervisor/filesystem.h :
+ ../../extmod/vfs_fat.h ../../supervisor/port.h ../../supervisor/serial.h :
+ /usr/include/newlib/stdio.h /usr/include/newlib/sys/types.h :
+ /usr/include/newlib/sys/_stdint.h /usr/include/newlib/machine/endian.h :
+ /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h :
+ /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h :
+ /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h :
+ /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h :
+ /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h :
+ ../../supervisor/shared/reload.h :
+ ../../shared-bindings/supervisor/RunReason.h :
+ ../../supervisor/shared/safe_mode.h ../../supervisor/shared/stack.h :
+ ../../supervisor/shared/status_leds.h ../../shared/runtime/pyexec.h :
+ ../../supervisor/shared/rgb_led_colors.h ../../supervisor/shared/tick.h :
+ ../../supervisor/shared/traceback.h ../../supervisor/shared/workflow.h :
+ ../../supervisor/usb.h ../../supervisor/workflow.h :
+ ../../supervisor/shared/external_flash/external_flash.h :
+ ../../shared-bindings/microcontroller/__init__.h :
+ common-hal/microcontroller/Processor.h :
+ sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h :
+ ../../shared-bindings/microcontroller/ResetReason.h ../../py/enum.h :
+ ../../shared-bindings/microcontroller/RunMode.h :
+ common-hal/nvm/ByteArray.h common-hal/watchdog/WatchDogTimer.h :
+ ../../shared-module/watchdog/__init__.h :
+ ../../shared-bindings/watchdog/WatchDogMode.h :
+ ../../shared-bindings/watchdog/WatchDogTimer.h :
+ ../../shared-bindings/microcontroller/Processor.h :
+ ../../shared-bindings/supervisor/__init__.h :
+ common-hal/supervisor/Runtime.h :
+ ../../shared-module/supervisor/StatusBar.h :
+ ../../shared-bindings/supervisor/Runtime.h :
+ ../../shared-bindings/supervisor/SafeModeReason.h :
+ ../../shared-bindings/os/__init__.h :
+ ../../shared-bindings/alarm/__init__.h common-hal/alarm/__init__.h :
+ common-hal/alarm/SleepMemory.h common-hal/alarm/pin/PinAlarm.h :
+ ../../shared-bindings/microcontroller/Pin.h :
+ common-hal/microcontroller/Pin.h peripherals/pins.h :
+ common-hal/alarm/time/TimeAlarm.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h :
+ common-hal/digitalio/DigitalInOut.h :
+ ../../shared-module/atexit/__init__.h :
+ ../../shared-bindings/_bleio/__init__.h :
+ ../../shared-bindings/_bleio/Adapter.h :
+ ../../devices/ble_hci/common-hal/_bleio/Adapter.h :
+ ../../shared-bindings/_bleio/Characteristic.h :
+ ../../shared-bindings/_bleio/Attribute.h :
+ ../../devices/ble_hci/common-hal/_bleio/Attribute.h :
+ ../../shared-module/_bleio/Attribute.h :
+ ../../shared-bindings/_bleio/UUID.h :
+ ../../devices/ble_hci/common-hal/_bleio/UUID.h :
+ ../../shared-bindings/_bleio/Descriptor.h :
+ ../../devices/ble_hci/common-hal/_bleio/Characteristic.h :
+ ../../devices/ble_hci/common-hal/_bleio/Descriptor.h :
+ ../../shared-module/_bleio/Characteristic.h :
+ ../../devices/ble_hci/common-hal/_bleio/Service.h :
+ ../../shared-bindings/_bleio/Connection.h :
+ ../../devices/ble_hci/common-hal/_bleio/Connection.h :
+ ../../devices/ble_hci/common-hal/_bleio/__init__.h :
+ ../../devices/ble_hci/common-hal/_bleio/att.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/addr.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/att.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/att_internal.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/hci.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/addr.h :
+ ../../devices/ble_hci/common-hal/_bleio/hci_include/hci_err.h :
+ ../../shared-module/_bleio/Address.h :
+ ../../shared-bindings/_bleio/ScanResults.h :
+ ../../shared-module/_bleio/ScanResults.h ../../py/ringbuf.h :
+ ../../py/gc.h ../../shared-bindings/busio/UART.h common-hal/busio/UART.h :
+ sdk/src/rp2_common/hardware_uart/include/hardware/uart.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h :
+ ../../shared-bindings/digitalio/DigitalInOut.h :
+ ../../shared-bindings/digitalio/Direction.h :
+ ../../shared-bindings/digitalio/DriveMode.h :
+ ../../shared-bindings/digitalio/Pull.h ../../py/objstr.h :
+ ../../py/objarray.h ../../supervisor/shared/bluetooth/bluetooth.h :
+ ../../shared-module/board/__init__.h :
+ ../../shared-module/displayio/__init__.h :
+ ../../shared-bindings/busdisplay/BusDisplay.h :
+ ../../shared-module/busdisplay/BusDisplay.h :
+ ../../shared-bindings/displayio/Group.h :
+ ../../shared-module/displayio/Group.h :
+ ../../shared-module/displayio/area.h :
+ ../../shared-module/displayio/Palette.h :
+ ../../shared-bindings/pwmio/PWMOut.h common-hal/pwmio/PWMOut.h :
+ ../../shared-module/displayio/bus_core.h :
+ ../../shared-bindings/displayio/__init__.h :
+ ../../shared-module/displayio/display_core.h :
+ ../../shared-bindings/epaperdisplay/EPaperDisplay.h :
+ ../../shared-module/epaperdisplay/EPaperDisplay.h :
+ ../../shared-bindings/framebufferio/FramebufferDisplay.h :
+ ../../shared-module/framebufferio/FramebufferDisplay.h :
+ ../../shared-bindings/fourwire/FourWire.h :
+ ../../shared-module/fourwire/FourWire.h common-hal/busio/SPI.h :
+ sdk/src/rp2_common/hardware_spi/include/hardware/spi.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h :
+ ../../shared-bindings/fourwire/__init__.h :
+ ../../shared-bindings/i2cdisplaybus/I2CDisplayBus.h :
+ ../../shared-module/i2cdisplaybus/I2CDisplayBus.h common-hal/busio/I2C.h :
+ ../../shared-module/bitbangio/I2C.h :
+ sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h :
+ ../../shared-bindings/paralleldisplaybus/ParallelBus.h :
+ common-hal/paralleldisplaybus/ParallelBus.h :
+ bindings/rp2pio/StateMachine.h common-hal/rp2pio/StateMachine.h :
+ sdk/src/rp2_common/hardware_pio/include/hardware/pio.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h :
+ sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h :
+ sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h :
+ sdk/src/rp2_common/hardware_irq/include/hardware/irq.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h :
+ sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h :
+ sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h :
+ ../../shared-bindings/rgbmatrix/RGBMatrix.h :
+ ../../shared-module/rgbmatrix/RGBMatrix.h :
+ ../../lib/protomatter/src/core.h :
+ ../../shared-module/sharpdisplay/SharpMemoryFramebuffer.h :
+ ../../shared-bindings/busio/SPI.h ../../shared-module/keypad/__init__.h :
+ ../../supervisor/shared/lock.h ../../supervisor/shared/status_bar.h :
+ ../../shared-module/usb_hid/__init__.h :
+ ../../shared-module/usb_hid/Device.h ../../shared-module/os/__init__.h :

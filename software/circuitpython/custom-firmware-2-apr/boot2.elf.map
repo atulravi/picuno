@@ -1,0 +1,157 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+ .group         0x0000000000000000        0xc /tmp/ccpHe9er.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x0000000020041f00 0x00000000000000fc xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000020041f00                . = ORIGIN (SRAM)
+
+.text           0x0000000020041f00       0xf6
+ *(.entry.*)
+ .entry._stage2_boot
+                0x0000000020041f00       0xd4 /tmp/ccpHe9er.o
+                0x0000000020041f00                _stage2_boot
+ *(.text.*)
+ .text.wait_and_read
+                0x0000000020041fd4       0x22 /tmp/ccpHe9er.o
+ .text          0x0000000020041ff6        0x0 /tmp/ccpHe9er.o
+LOAD /tmp/ccpHe9er.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+END GROUP
+OUTPUT(build-PicUNO/boot2.elf elf32-littlearm)
+LOAD linker stubs
+
+.data           0x0000000020041ff6        0x0
+ .data          0x0000000020041ff6        0x0 /tmp/ccpHe9er.o
+
+.igot.plt       0x0000000020041ff8        0x0
+ .igot.plt      0x0000000020041ff8        0x0 /tmp/ccpHe9er.o
+
+.glue_7         0x0000000020041ff8        0x0
+ .glue_7        0x0000000020041ff8        0x0 linker stubs
+
+.glue_7t        0x0000000020041ff8        0x0
+ .glue_7t       0x0000000020041ff8        0x0 linker stubs
+
+.vfp11_veneer   0x0000000020041ff8        0x0
+ .vfp11_veneer  0x0000000020041ff8        0x0 linker stubs
+
+.v4_bx          0x0000000020041ff8        0x0
+ .v4_bx         0x0000000020041ff8        0x0 linker stubs
+
+.iplt           0x0000000020041ff8        0x0
+ .iplt          0x0000000020041ff8        0x0 /tmp/ccpHe9er.o
+
+.rel.dyn        0x0000000020041ff8        0x0
+ .rel.iplt      0x0000000020041ff8        0x0 /tmp/ccpHe9er.o
+
+.bss            0x0000000020041ff6        0x0
+ .bss           0x0000000020041ff6        0x0 /tmp/ccpHe9er.o
+
+.debug_info     0x0000000000000000      0x409
+ .debug_info    0x0000000000000000      0x409 /tmp/ccpHe9er.o
+
+.debug_abbrev   0x0000000000000000      0x17f
+ .debug_abbrev  0x0000000000000000      0x17f /tmp/ccpHe9er.o
+
+.debug_loc      0x0000000000000000       0xf6
+ .debug_loc     0x0000000000000000       0xf6 /tmp/ccpHe9er.o
+
+.debug_aranges  0x0000000000000000       0x28
+ .debug_aranges
+                0x0000000000000000       0x28 /tmp/ccpHe9er.o
+
+.debug_ranges   0x0000000000000000       0x50
+ .debug_ranges  0x0000000000000000       0x50 /tmp/ccpHe9er.o
+
+.debug_macro    0x0000000000000000     0x56e1
+ .debug_macro   0x0000000000000000      0x1c3 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000001c3      0xff4 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000011b7       0x1c /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000011d3       0x22 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000011f5       0x22 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001217       0x52 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001269       0x18 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001281       0x94 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001315       0x35 /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000134a       0x34 /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000137e       0x16 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001394       0x28 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000013bc      0x34e /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000170a      0x174 /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000187e       0x10 /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000188e       0x22 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000018b0       0x88 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001938       0xca /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001a02       0xa6 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001aa8      0x172 /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000001c1a     0x150c /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000003126       0x2e /tmp/ccpHe9er.o
+ .debug_macro   0x0000000000003154       0x57 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000031ab      0x333 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000034de       0xc7 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000035a5       0x6a /tmp/ccpHe9er.o
+ .debug_macro   0x000000000000360f      0xbb5 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000041c4      0x6e7 /tmp/ccpHe9er.o
+ .debug_macro   0x00000000000048ab      0xe36 /tmp/ccpHe9er.o
+
+.debug_line     0x0000000000000000      0x6ab
+ .debug_line    0x0000000000000000      0x6ab /tmp/ccpHe9er.o
+
+.debug_str      0x0000000000000000    0x1a22b
+ .debug_str     0x0000000000000000    0x1a22b /tmp/ccpHe9er.o
+                                      0x1a437 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 /tmp/ccpHe9er.o
+                                         0x34 (size before relaxing)
+
+.ARM.attributes
+                0x0000000000000000       0x2b
+ .ARM.attributes
+                0x0000000000000000       0x2b /tmp/ccpHe9er.o
+
+.debug_frame    0x0000000000000000       0x44
+ .debug_frame   0x0000000000000000       0x44 /tmp/ccpHe9er.o
