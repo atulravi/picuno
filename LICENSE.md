@@ -1,6 +1,7 @@
 ## License of Hardware:
 
 GNU GPL V3:
+
     PicUNO RP2040 is a hardware board that is built on the RP2040 in the UNO Form factor with level shifting. 
     Copyright (C)2023-2024 AtrivaTECH, ESC crasci and It's ON Group Of Companies.
 
