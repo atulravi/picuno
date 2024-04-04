@@ -25,6 +25,11 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 
 <hr width = 100% height = 2></hr>
 
+# Software
+As of now, custom editions of MicroPython and Circuitpython for our board have been made. However, until we obtain the PID codes, said versions will not be merged with the main repositories. However, the versions we have built will be available to test the board. 
+Circuit Python: https://github.com/atulravi/circuitpython
+MicroPython: https://github.com/AtrivaTECH/micropython/tree/master
+
 # Photo of PicUNO RP2040 V2.X.X
 <img src="http://atrivatech.com/wp-content/uploads/2024/03/IMG_0571-scaled.jpg" height= "50%"  width = "50%" size="50%"></img>
 
