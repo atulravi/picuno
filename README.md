@@ -25,10 +25,22 @@ Cost Calculations and Expected Campaign goal can be found at <a href="https://gi
 
 <hr width = 100% height = 2></hr>
 
+# Information:
+As development is consistent, documenting it, is not. To combat the same, various repositories and their purposes are given below. You may Follow the ones of choice to be notified when latest versions/updates are pushed.
+1) Circuit Python port: https://github.com/atulravi/circuitpython
+2) MicroPython Port: https://github.com/AtrivaTECH/micropython/tree/master
+3) Arduino IDE Library: https://github.com/AtrivaTECH/AtrivaTECH_PicUNO
+4) Documentation: https://github.com/AtrivaTECH/picuno-documentation
+5) Project Repository: https://github.com/AtrivaTECH/picuno-projects
+6) FPGA Shield: https://github.com/AtrivaTECH/picuno-ice
+
+You may download software packages like uf2 files and latest library binaries from the "RELEASES" tab in each respective repository. 
+
 # Software
 As of now, custom editions of MicroPython and Circuitpython for our board have been made. However, until we obtain the PID codes, said versions will not be merged with the main repositories. However, the versions we have built will be available to test the board. 
 Circuit Python: https://github.com/atulravi/circuitpython
 MicroPython: https://github.com/AtrivaTECH/micropython/tree/master
+Arduino IDE Library:  https://github.com/AtrivaTECH/AtrivaTECH_PicUNO
 
 # Photo of PicUNO RP2040 V2.X.X
 <img src="http://atrivatech.com/wp-content/uploads/2024/03/IMG_0571-scaled.jpg" height= "50%"  width = "50%" size="50%"></img>
