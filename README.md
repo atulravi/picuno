@@ -50,7 +50,8 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 ![First Protoytpe (1)_page-0001](https://github.com/atulravi/picuno/assets/70395057/46d8deba-8657-42b1-a80e-a7a603487e63)
 <small><center>Sections highlighted in green are complete</center></small>
 
-## Known Faults:
+## Known Faults: (GitHUB Issues can be used to track progress)
+<19/APR> 3.3 and GND interchanged on headers. 
 <1/APR> I2C and QWIIC wiring issue. GP20 is SDA and GP21 is SCL. Will Be fixed.
 
 <h1><b>Licenses:</b></h1>
