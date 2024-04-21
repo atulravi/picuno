@@ -63,7 +63,7 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 <small><center>Sections highlighted in green are complete</center></small>
 
 ## Known Faults: (GitHUB Issues can be used to track progress)
-<19/APR> 3.3 and GND interchanged on headers. 
+<s><19/APR> 3.3 and GND interchanged on headers. </s><br>
 <1/APR> I2C and QWIIC wiring issue. GP20 is SDA and GP21 is SCL. Will Be fixed.
 
 <h1><b>Licenses:</b></h1>
