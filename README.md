@@ -7,3 +7,6 @@ The PicUNO Line-Up Is as follows:
 1) RP2040 - https://github.com/atulravi/picuno/tree/main/RP2040
 ## Shields 
 1) Lattice ICE50UP5K FPGA Shield - https://github.com/atulravi/picuno-ice
+
+
+Current Version Under Test: V3.0.0 (RP2040)
