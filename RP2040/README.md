@@ -20,9 +20,9 @@ Learning Resources shall be developed in partnership with the Educational Kits d
 
 Note that all of the gerber files and kicad files present at root are of V1 and can be ignored. File hierarchy shall be updated below soon. 
 <br>
-Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/manufacture">/manufacture</a><br>
+Cost Calculations and Expected Campaign goal can be found at <a href="https://github.com/atulravi/picuno/tree/main/RP2040/manufacture">/manufacture</a><br>
  
-<b><i>Current version being <s>prototyped</s> tested:</i></b> V2.2.3 (Picuno)<br>
+<b><i>Current version being <s>prototyped</s> tested:</i></b> V3.0.0 (Picuno RP2040)<br>
 
 <hr width = 100% height = 2></hr>
 
@@ -68,8 +68,8 @@ This particular version comes with 1 built-in LED, 1 WS2812 NeoPixel, Level SHif
 <1/APR> I2C and QWIIC wiring issue. GP20 is SDA and GP21 is SCL. Will Be fixed.
 
 <h1><b>Licenses:</b></h1>
-<img src = "https://github.com/atulravi/picuno/blob/main/oshw_facts-v1.png" > </img>
-<img src = "https://github.com/atulravi/picuno/blob/main/v1-oshwa.png" size = 50% width = 50% height = 50%  > </img>
+<img src = "https://github.com/atulravi/picuno/blob/main/RP2040/oshw_facts-v1.png" > </img>
+<img src = "https://github.com/atulravi/picuno/blob/main/RP2040/v1-oshwa.png" size = 50% width = 50% height = 50%  > </img>
 
 <hr width = 100% height = 2></hr>
 <h1><b>Team:</b></h1>
