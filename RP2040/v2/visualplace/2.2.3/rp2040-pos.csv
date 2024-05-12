@@ -1,8 +1,8 @@
 # Created by VisualPlace version 3.3.6929 at Sun Mar 24 00:58:35 2024
 # Report origin: (0.0/0.0) = lower left corner of PCB
 # Units: inch
-"Designator","Value","X","Y","Rotation","Side","Package","Type"
 
+"Designator","Value","X","Y","Rotation","Side","Package","Type"
 "C1","27p","0.9160","1.2110","0.0","Top","0603","SMD"
 "C2","27p","0.5882","1.2764","180.0","Top","0603","SMD"
 "C3","100n","0.8643","2.2020","90.0","Top","0603","SMD"
