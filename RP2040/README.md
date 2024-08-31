@@ -12,6 +12,7 @@ File Hierarchy will be updated periodically.<br>
 
 GPIOs <s>will be</s> are 5V tolerant (Select GPIOs) with level shifting. At the moment, <s>-6-</s> <b>4 </b> GPIOs will be level shifted to 5 volts unlike competitors. <s> Also working on shifting all GPIOs to 5V for better compatibility.</s> This shall work only with external power for safety reasons. (Note: Although GPIOS 2-5 are "OUTPUT ONLY" even inputs can be given. However, 5V inputs can only be given with external power. 3.3V inputs can be given with/without. Said GPIOs are maked as such to prevent accidents in hands of beginners. Said outputs will also be held HIGH always. For functionality, set low. These points are also applicable to 5V edition only.) Dual regulators are added for complete freedom of choosing devices to connect. (NOTE 2: Although both external power and USB power can be given at once, it is not recommended. However, the circuit has been designed to prevent reversing of high voltage through the USB. If considering external power and USB C, using a C cable without 5V line would be recommended.)<br> 
 
+
 Built-In LED can be accessed at GPIO14.
 
 SparkFun QWIIC/ Adafruit Stemma is also <s>going to be</s> implemented.  
